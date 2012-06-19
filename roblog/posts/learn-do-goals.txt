@@ -1,0 +1,106 @@
+This post acts as an index of stuff that I'd like to learn about or build. As I write about my progress, I'll convert list items to links, making this a hub of sorts.
+
+Programming / Software
+======================
+
+Python
+------
+
+- Work towards mastering python
+- Arduino Serial Integration
+- Static site generator compatibile with Github pages
+- Write a game in Python
+
+Javascript
+----------
+
+- Work towards mastering javascript
+- Write a game in Javascript
+
+Clojure
+-------
+
+- Work towards a working knowledge of Clojure
+- Generating Fractal Images
+- Writing Music With Overtone
+- Running Javascript libraries
+- Clojurescript
+- Write a game in Clojure
+
+C
+-
+
+- Work towards a working knowledge of C
+- Write a game in C
+
+Arduino Wiring
+--------------
+
+- Structuring open, reusable libraries
+
+General stuff
+-------------
+
+- Using Regular Expressions
+- Bitwise operations
+- Analysis of algorithms
+
+Development process
+-------------------
+
+- Build a deep knowledge of unit testing
+- Performing load testing
+- Maximizing utility of continuous integration
+- 
+
+Git
+---
+
+- Work towards a deeper understanding of Git
+- Learn about rebasing
+- Learn some commit manipulation magic
+- Working with submodules
+
+Linux
+-----
+
+- Migrate from Ubuntu to Arch
+- Enable remote connection / wakeup on home and office boxes
+
+AwesomeWM
+---------
+
+- Automatically launching programs in predefined spaces
+- Setting the desktop background
+
+Makery Stuff
+============
+
+Aquaponics
+----------
+
+- Design Fundamentals
+- Hardware considerations
+- Initial cycling
+- What to monitor
+- Automated Monitoring
+- Starting plants in medium
+- Fish & Plant selection
+- Fish husbandry
+- Lighting
+- When and How to Harvest
+
+Electrical Engineering
+----------------------
+
+- Ohms Law
+- Transistors
+- Shift registers
+- Diodes, light emitting and other
+
+3D Printing
+-----------
+
+- Designing 3d Parts
+- Printing 3d Parts
+- Building / Using a 3d Printer
