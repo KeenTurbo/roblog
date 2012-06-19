@@ -5,6 +5,7 @@
 <span class="n">DEPLOY_COMMANDS</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s">'git {git_dir} add .'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">git_dir</span><span class="o">=</span><span class="n">GIT_DIR</span><span class="p">),</span>
     <span class="s">&quot;git {git_dir} commit -m 'latest auto deploy build'&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">git_dir</span><span class="o">=</span><span class="n">GIT_DIR</span><span class="p">),</span>
-    <span class="s">'git {git_dir} push origin master'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">git_dir</span><span class="o">=</span><span class="n">GIT_DIR</span><span class="p">)</span>
+    <span class="s">'git {git_dir} push origin master -f'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">git_dir</span><span class="o">=</span><span class="n">GIT_DIR</span><span class="p">)</span>
 <span class="p">]</span>
 </pre>
+<p>I added the -f flag to the git push so I can update the blog without any hassles from multiple locations. I would never do this for a regular repository but this is a s lightly different use case.</p>

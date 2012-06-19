@@ -98,7 +98,7 @@ GIT_DIR = '--git-dir=output/.git --work-tree=output'
 DEPLOY_COMMANDS = [
     'git {git_dir} add .'.format(git_dir=GIT_DIR),
     "git {git_dir} commit -m 'latest auto deploy build'".format(git_dir=GIT_DIR),
-    'git {git_dir} push origin master'.format(git_dir=GIT_DIR)
+    'git {git_dir} push origin master -f'.format(git_dir=GIT_DIR)
 ]
 
 # Where the output site should be located

@@ -7,5 +7,8 @@ Nikola allows you to specify a set of commands to run to deploy your site. Unfor
     DEPLOY_COMMANDS = [
         'git {git_dir} add .'.format(git_dir=GIT_DIR),
         "git {git_dir} commit -m 'latest auto deploy build'".format(git_dir=GIT_DIR),
-        'git {git_dir} push origin master'.format(git_dir=GIT_DIR)
+        'git {git_dir} push origin master -f'.format(git_dir=GIT_DIR)
     ]
+
+
+I added the -f flag to the git push so I can update the blog without any hassles from multiple locations. I would never do this for a regular repository but this is a s lightly different use case.
